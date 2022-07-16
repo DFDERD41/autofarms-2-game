@@ -1,0 +1,7 @@
+if game.PlaceId == 7065428604 then
+  loadstring(game:HttpGet('https://gist.githubusercontent.com/DFDERD41/09a9b355ab462264ce852afb6866003e/raw/a47a1a1ac884c79db3a06a7bf58e22a92abaedb5/very%2520op%2520build%2520a%2520boat%2520to%2520survice%2520autofarm%2520script'))()
+    return
+elseif game.PlaceId == 537413528 then
+  loadstring(game:HttpGet('https://gist.githubusercontent.com/DFDERD41/c3c75b646419db28a8077c85400ec381/raw/59abbf783c58aa57c7c5fb915b592439981659cd/opscriptnocapbetterthaneveryscript-babft-op-autofarm-script-no-cap'))()
+  return
+end
