@@ -1,16 +1,7 @@
-if game.PlaceId == 7065428604 then
-wait(0)
+
 game:GetService("StarterGui"):SetCore("SendNotification",{     
 Title = "Script",     
-Text = "Game Supported",
-Button1 = ":)",
-Duration = 2
-})
-wait(0)
-elseif game.PlaceId == 537413528 then
-game:GetService("StarterGui"):SetCore("SendNotification",{     
-Title = "Script",     
-Text = "Game Supported",
+Text = "2 Games Supported",
 Button1 = ":)",
 Duration = 2
 })
