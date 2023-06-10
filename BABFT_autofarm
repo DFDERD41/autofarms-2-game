@@ -12,6 +12,15 @@ Duration = 3
 
 function mainshit(Character)
 wait(1.2)
+
+workspace["New YellerZone"].VoteLaunchRE:FireServer()
+workspace["Really redZone"].VoteLaunchRE:FireServer()
+workspace["Really blueZone"].VoteLaunchRE:FireServer()
+workspace["WhiteZone"].VoteLaunchRE:FireServer()
+workspace["BlackZone"].VoteLaunchRE:FireServer()
+workspace["MagentaZone"].VoteLaunchRE:FireServer()
+workspace["CamoZone"].VoteLaunchRE:FireServer()
+
 local T = game.Players.LocalPlayer.Character.HumanoidRootPart
 local BV = Instance.new('BodyVelocity', T)
 BV.Velocity = Vector3.new('0,-0.1,0')
