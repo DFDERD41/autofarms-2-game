@@ -1,6 +1,5 @@
 -- why you looking here
 
-
 game:GetService("StarterGui"):SetCore("SendNotification",{     
 Title = "Script",     
 Text = "starting Autofarm",
@@ -11,7 +10,7 @@ Duration = 3
 
 
 function mainshit(Character)
-wait(1.2)
+wait(1.24)
 
 workspace["New YellerZone"].VoteLaunchRE:FireServer()
 workspace["Really redZone"].VoteLaunchRE:FireServer()
@@ -102,6 +101,8 @@ wait(2.3)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-55.8801956, -361.116333, 9488.1377)
 wait(0.6)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-55.8801956, -361.116333, 9495.1377)
+wait(1.4)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-55.8801956, -361.116333, 9488.1377)
 
 end
 
