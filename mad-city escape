@@ -107,24 +107,24 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.54
 
 end
 
-local amount=250
+local amount=75
 for i=1,amount do
 wait(0)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2103.731, 50.914, -555.119)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2103.731, 80.914, -560.119)
 
 end
 
 
-wait(1.25)
+wait(0)
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2123.108, 80.804, -550.79)
-wait(0.2)
+--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2123.108, 80.804, -550.79)
+wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2107.997, 50.914, -560.2949)
-wait(0.2)
+wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2122.721, 47.284, -530.22)
-wait(0.2)
+wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2143.119, 47.284, -533.865)
-wait(1)
+wait(0.5)
 game.Workspace.Gravity = 0
 TweenService = game:GetService("TweenService")
 tweenInfo = TweenInfo.new(0.5) -- set 10 lower for faster speed
@@ -133,33 +133,33 @@ TweenGoal.CFrame = CFrame.new(-2174.155, 47.284, -430.092) -- coords u wanna twe
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
 
-wait(1.6)
+wait(0.6)
 
 TweenService = game:GetService("TweenService")
-tweenInfo = TweenInfo.new() -- set 10 lower for faster speed
+tweenInfo = TweenInfo.new(0.5) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-2174.155, 347.284, -430.092) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
 
-wait(1.1)
+wait(0.6)
 
 TweenService = game:GetService("TweenService")
-tweenInfo = TweenInfo.new(5) -- set 10 lower for faster speed
+tweenInfo = TweenInfo.new(0) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-342.432, 346.394, 182.271) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
 
-wait(3.5)
+wait(0.1)
 
 TweenService = game:GetService("TweenService")
-tweenInfo = TweenInfo.new(2) -- set 10 lower for faster speed
+tweenInfo = TweenInfo.new(0.5) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-64.969, 45.22, -96.394) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
 
-wait(1.1)
+wait(0.6)
 
 game.Workspace.Gravity = 192
