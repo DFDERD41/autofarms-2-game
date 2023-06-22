@@ -1,4 +1,4 @@
-game.Workspace.Gravity = 0
+game.Workspace.Gravity = 15
 
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2033.046, 47.284, -556.093)
