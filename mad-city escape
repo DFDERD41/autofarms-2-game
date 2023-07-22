@@ -1,6 +1,23 @@
+
+require(game:GetService("ReplicatedStorage").Aero.Shared.Util).Network:Invoke("RequestTeamChange", "Prisoners")
+require(game:GetService("ReplicatedStorage").Aero.Shared.Util).Network:Invoke("RequestTeamChange", "Prisoners")
+task.wait(0.5)
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+task.wait(0)
+game.Players.LocalPlayer.Character.Humanoid.Jump = true
+task.wait(0)
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+task.wait(0)
+game.Players.LocalPlayer.Character.Humanoid.Jump = true
+task.wait(0)
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+task.wait(0)
+game.Players.LocalPlayer.Character.Humanoid.Jump = true
+task.wait(1)
 game.Workspace.Gravity = 50
-
-
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2033.046, 47.284, -556.093)
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2048.312, 47.284, -567.04)
@@ -17,8 +34,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.62
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 47.284, -565.848)
 wait(0.2)
-
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 62.284, -577.323)
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 62.284, -588.401)
@@ -31,9 +46,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.62
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 62.284, -565.848)
 wait(0.2)
-
-
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 72.284, -577.323)
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 72.284, -588.401)
@@ -46,10 +58,6 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.62
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 72.284, -565.848)
 wait(0.2)
-
-
-
-
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 84.284, -577.323)
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 84.284, -588.401)
@@ -58,108 +66,120 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2090.74
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2110.481, 84.284, -593.233)
 wait(0.2)
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.629, 84.284, -578.759)
 wait(0.2)
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 84.284, -565.848)
 wait(0.2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-local amount=500
-for i=1,amount do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2033.046, 47.284, -556.093)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2048.312, 47.284, -567.04)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 47.284, -577.323)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 47.284, -588.401)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2090.745, 47.284, -598.968)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2110.481, 47.284, -593.233)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.629, 47.284, -578.759)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 47.284, -565.848)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 62.284, -577.323)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 62.284, -588.401)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2090.745, 62.284, -598.968)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2110.481, 62.284, -593.233)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.629, 62.284, -578.759)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 62.284, -565.848)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 72.284, -577.323)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 72.284, -588.401)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2090.745, 72.284, -598.968)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2110.481, 72.284, -593.233)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.629, 72.284, -578.759)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 72.284, -565.848)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2062.311, 84.284, -577.323)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2076.161, 84.284, -588.401)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2090.745, 84.284, -598.968)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2110.481, 84.284, -593.233)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2120.629, 84.284, -578.759)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2131.542, 84.284, -565.848)
-
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+game.Players.LocalPlayer.Character.Humanoid.Sit = false
+local function tp(cframe, speed)
+   local plr = game:GetService("Players").LocalPlayer.Character
+   local tween = game:GetService("TweenService")
+   
+   tween:Create(plr.HumanoidRootPart,TweenInfo.new(speed,Enum.EasingStyle.Linear),{CFrame = cframe}):Play()
 end
-
-local amount=75
-for i=1,amount do
-wait(0)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2103.731, 80.914, -560.119)
-
+tp(CFrame.new(Vector3.new(-2112.9052734375, 51.11603546142578, -515.5492553710938)),0.5)
+task.wait(0.5)
+local function tp(cframe, speed)
+   local plr = game:GetService("Players").LocalPlayer.Character
+   local tween = game:GetService("TweenService")
+   
+   tween:Create(plr.HumanoidRootPart,TweenInfo.new(speed,Enum.EasingStyle.Linear),{CFrame = cframe}):Play()
 end
-
-
-wait(0)
-
---game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2123.108, 80.804, -550.79)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2107.997, 50.914, -560.2949)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2122.721, 47.284, -530.22)
-wait(0.1)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2143.119, 47.284, -533.865)
-wait(0.5)
+tp(CFrame.new(Vector3.new(-2112.9052734375, 61.11603546142578, -515.5492553710938)),0.5)
+task.wait(0.5)
+local function tp(cframe, speed)
+   local plr = game:GetService("Players").LocalPlayer.Character
+   local tween = game:GetService("TweenService")
+   
+   tween:Create(plr.HumanoidRootPart,TweenInfo.new(speed,Enum.EasingStyle.Linear),{CFrame = cframe}):Play()
+end
+tp(CFrame.new(Vector3.new(-2112.9052734375, 71.11603546142578, -515.5492553710938)),0.5)
+task.wait(0.5)
+local function tp(cframe, speed)
+   local plr = game:GetService("Players").LocalPlayer.Character
+   local tween = game:GetService("TweenService")
+   
+   tween:Create(plr.HumanoidRootPart,TweenInfo.new(speed,Enum.EasingStyle.Linear),{CFrame = cframe}):Play()
+end
+tp(CFrame.new(Vector3.new(-2112.9052734375, 81.11603546142578, -515.5492553710938)),0.5)
+task.wait(0.5)
+local function tp(cframe, speed)
+   local plr = game:GetService("Players").LocalPlayer.Character
+   local tween = game:GetService("TweenService")
+   
+   tween:Create(plr.HumanoidRootPart,TweenInfo.new(speed,Enum.EasingStyle.Linear),{CFrame = cframe}):Play()
+end
+tp(CFrame.new(Vector3.new(-2112.9052734375, 91.11603546142578, -515.5492553710938)),0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2097.942626953125, 52.43741226196289, -589.3193359375)}):Play()
+task.wait(0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2097.942626953125, 82.43741226196289, -589.3193359375)}):Play()
+task.wait(0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2073.931640625, 47.31019592285156, -542.9229125976562)}):Play()
+task.wait(0.8)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2035.3021240234375, 47.370208740234375, -530.0236206054688)}):Play()
+task.wait(0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2121.858642578125, 55.749996185302734, -560.5062866210938)}):Play()
+task.wait(0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2085.39990234375, 51.3687744140625, -560.82763671875)}):Play()
+task.wait(0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(1, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2098.29736328125, 47.37024688720703, -524.4588012695312)}):Play()
+task.wait(1)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2140.306396484375, 47.31022644042969, -542.5440673828125)}):Play()
+task.wait(0.5)
+tweenService, tweenInfo = game:GetService("TweenService"), TweenInfo.new(0.5, Enum.EasingStyle.Linear)
+tweenService:Create(game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart, tweenInfo, {CFrame = CFrame.new(-2174.566162109375, 47.310142517089844, -436.95257568359375)}):Play()
+task.wait(0.6)
 game.Workspace.Gravity = 0
+task.wait()
 TweenService = game:GetService("TweenService")
 tweenInfo = TweenInfo.new(0.5) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-2174.155, 47.284, -430.092) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
-
-wait(0.6)
-
+task.wait(0.6)
 TweenService = game:GetService("TweenService")
 tweenInfo = TweenInfo.new(0.5) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-2174.155, 347.284, -430.092) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
-
-wait(0.6)
-
+task.wait(0.6)
 TweenService = game:GetService("TweenService")
 tweenInfo = TweenInfo.new(0) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-342.432, 346.394, 182.271) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
-
-wait(0.1)
-
+task.wait(0.1)
+TweenService = game:GetService("TweenService")
+tweenInfo = TweenInfo.new(0) -- set 10 lower for faster speed
+TweenGoal = {}
+TweenGoal.CFrame = CFrame.new(-342.432, 346.394, 182.271) -- coords u wanna tween to
+PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
+PlayTween:Play()
+task.wait(0.1)
 TweenService = game:GetService("TweenService")
 tweenInfo = TweenInfo.new(0.5) -- set 10 lower for faster speed
 TweenGoal = {}
 TweenGoal.CFrame = CFrame.new(-64.969, 45.22, -96.394) -- coords u wanna tween to
 PlayTween = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart,tweenInfo,TweenGoal)
 PlayTween:Play()
-
-wait(0.6)
-
+task.wait(0.5)
 game.Workspace.Gravity = 192
